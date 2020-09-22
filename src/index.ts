@@ -1,0 +1,1 @@
+export default (a:number,b:number):number=>{const c:number[]=[];for(let i=0;i<50;i++)c.push(Math.random()>.5?(Math.random()>.5?a*b/Math.sqrt(a+b):a%b):(Math.random()>.5?Math.cos(a)/b**5:a*b));return c.reduce((a,b)=>a+b,0)/c.length}
